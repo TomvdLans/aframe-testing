@@ -1,8 +1,8 @@
 
 
 // changing individual properties with code and using setInterval
-var rotationSpeed = 0.05;
-var rotationSlowDown = -0.0005
+var rotationSpeed = 0.07;
+var rotationSlowDown = -0.00005
 var myOtherBox = document.getElementById('myOtherBox');
 
 
