@@ -10,12 +10,17 @@
   <body>
     <a-scene background="src: sky.jpg">
       <a-assets>
-        <img id="wood" src="images/wood.jpg" />
+        <img id="bark" src="images/bark.jpg" />
         <img id="grass" src="images/grass.jpg" />
+        <img id="sky" src="images/sky2.jpg" />
+        <img id="sky2" src="images/sky.jpg" />
+        <img id="leaves" src="images/leaves.jpg" />
     </a-assets>
 
+    <a-sky src="#sky"></a-sky>
+
     <a-plane id="ground"
-      material="src: #grass; repeat: 10 10"
+      material="src: #grass; repeat: 20 20"
       position="0 0 -4" 
       rotation="-90 0 0" 
       width="100" 
