@@ -15,6 +15,8 @@
         <img id="sky" src="images/sky2.jpg" />
         <img id="sky2" src="images/sky.jpg" />
         <img id="leaves" src="images/leaves.jpg" />
+        <img id="apple" src="images/apple.jpg" />
+        <img id="apple2" src="images/apple2.jpg" />
     </a-assets>
 
     <a-sky src="#sky2"></a-sky>
@@ -47,11 +49,11 @@
     </a-sphere>
 
     <a-sphere
-      color="red"
-      radius=".5"
-      position="-1 8.5 2"
-      animation__2="property: position; 
-                   to: -1 1 2; 
+    material="src: #apple"
+      radius=".2"
+      position="-1 4 2"
+      animation="property: position; 
+                   to: -1 0 2; 
                    dur: 2000; 
                    delay: 1000;
                    easing: easeInQuart; 
